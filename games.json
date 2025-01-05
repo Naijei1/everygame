@@ -271,16 +271,40 @@
     "data_players": "150K players",
     "related": ["vex7", "slope", "moto-x3m"]
   },
+  
+  {
+    "id": "mahjong",
+    "title": "Green Mahjong",
+    "category": "Classic",
+    "subcategory": "mahjong",
+    "instructions": "Mahjong",
+    "path": "games/mahjong/",
+    "subPath":"GreenMahjong/www/index.html",
+    "imgpath": "images/mahjong.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
 
   {
-    "id": "browserquest",
-    "title": "Browser Quest",
-    "category": "Skill",
-    "subcategory": "Adventure",
-    "instructions": "BrowserQuest is a HTML5/JavaScript multiplayer game experiment.",
-    "path": "games/browserquest/",
-    "subPath":"client/index.html",
-    "imgpath": "images/diablo.png",
+    "id": "commandconquer",
+    "title": "Command and Conquer",
+    "category": "Strategy",
+    "subcategory": "Tower_Defense",
+    "instructions": "This is a recreation of the original Command and Conquer, Real Time Strategy game entirely in HTML5 and Javascript.",
+    "path": "games/commandconquer/",
+    "imgpath": "images/commandconquer.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "towerdefense",
+    "title": "Tower Defense",
+    "category": "Strategy",
+    "subcategory": "Tower_Defense",
+    "instructions": "This is a recreation of the original Command and Conquer, Real Time Strategy game entirely in HTML5 and Javascript.",
+    "path": "games/towerdefense/",
+    "imgpath": "images/towerdefense.png",
     "data_players": "150K players",
     "related": ["vex7", "slope", "moto-x3m"]
   }
