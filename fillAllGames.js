@@ -1,21 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const gamesContainer = document.getElementById('games');
 
-    let gamesData = [];
-
-    // Fetch the JSON data
-    fetch('games.json')
-        .then((response) => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
-        })
+    // Use the shared loadAllGames function to fetch all games
+    loadAllGames()
         .then((data) => {
-            gamesData = data; // Store the JSON data
             populateGames(data); // Populate the games dynamically
         })
-        .catch((error) => console.error('Error loading games.json:', error));
+        .catch((error) => console.error('Error loading games:', error));
 
     // Function to populate games dynamically
     function populateGames(data) {

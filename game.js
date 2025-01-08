@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const gameId = urlParams.get("id");
 
-  fetch("games.json")
-    .then((response) => response.json())
+  // Use the shared loadAllGames function to fetch games from all JSON files
+  loadAllGames()
     .then((games) => {
       const game = games.find((g) => g.id === gameId);
 
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Set iframe background if the 'background' attribute exists
       if (game.background) {
         gameFrame.style.backgroundColor = game.background;
-        console.log("set background to " + game.background)
+        console.log("set background to " + game.background);
       }
 
       document.getElementById("game-category").innerText = game.category || "Unknown";
