@@ -28,8 +28,11 @@ nav img {
 }
 
 nav h1 {
+    position: relative;
     font-size: 4vw;
     font-weight: 800;
+    margin-bottom: auto;
+    margin-top: 0;
 }
 a.mainlink {
     text-decoration: none; /* Remove underline */
@@ -44,18 +47,18 @@ a.mainlink {
     color: #fff;
     align-items: center;
     justify-content: center;
-    padding: 2vw;
+    padding: 5vw;
 }
 
 .hero-content {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-top: 10vh;
+    margin-top: 80px;
 }
 
 .hero-left {
-    max-width: 50%;
+    min-width: 50%;
 }
 
 .hero-left h1 {
@@ -83,7 +86,7 @@ a.mainlink {
     border-radius: 10px 0 0 10px;
     color: #fff;
     font-size: 15px;
-    padding: 10.2px 19.29px;
+    padding: 15px 30px;
     flex: 1; /* Allow the input to take up remaining space */
     max-width: 300px;
 }
@@ -93,7 +96,7 @@ a.mainlink {
     border: none;
     border-radius: 0 10px 10px 0;
     font-size: 15px;
-    padding: 10.2px 12.8px;
+    padding: 10px 15px;
     cursor: pointer;
 }
 
@@ -118,16 +121,21 @@ a.mainlink {
 
 .hero-right {
     max-width: 45%;
+    min-width: 460px;
 }
 
 .hero-right h2 {
-    font-size: 3vw;
+    font-size: 51px;
+    font-weight: 800;
     margin-bottom: 2vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .popular-games {
     display: flex;
     gap: 1vw;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .popular-games a {
@@ -323,6 +331,8 @@ a.mainlink {
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: left;
+    gap: 35px;
   }
   
   .navbar .logo {
@@ -334,6 +344,7 @@ a.mainlink {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-left: 0;
   }
   
   .menu > li {
@@ -344,6 +355,8 @@ a.mainlink {
     color: white;
     text-decoration: none;
     padding: 10px;
+    font-size: 24px;
+    font-weight: normal;
   }
   
   .dropdown-content {
@@ -352,6 +365,8 @@ a.mainlink {
     background-color: #004d40;
     min-width: 150px;
     z-index: 1001;
+    list-style: none;
+    padding-left: 0;
   }
   
   .dropdown-content a {
@@ -359,6 +374,11 @@ a.mainlink {
     text-decoration: none;
     padding: 10px;
     display: block;
+  }
+
+  .dropdown-content a:hover {
+    color: #C7F464;
+    border: solid #C7F464;
   }
   
   .dropdown:hover .dropdown-content {
