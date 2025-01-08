@@ -33,12 +33,19 @@ nav h1 {
     font-weight: 800;
     margin-bottom: auto;
     margin-top: 0;
+    transition: transform 0.2s;
 }
+
+.navbar h1:hover {
+    transform: scale(1.05);
+}
+
 a.mainlink {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit the text color from the parent element */
     cursor: pointer; /* Ensure the pointer (hand) cursor appears on hover */
-  }
+}
+
 /* Hero Section */
 .hero {
     display: flex;
@@ -64,13 +71,14 @@ a.mainlink {
 .hero-left h1 {
     font-size: 51px;
     font-weight: 800;
-    margin-bottom: 1vw;
+    margin-bottom: 0;
 }
 
 .hero-left p {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 2vw;
+    margin-top: 0px;
 }
 
 .hero-left .search {
@@ -124,7 +132,7 @@ a.mainlink {
     min-width: 460px;
 }
 
-.hero-right h2 {
+.hero-right h1 {
     font-size: 51px;
     font-weight: 800;
     margin-bottom: 2vw;
@@ -326,8 +334,6 @@ a.mainlink {
     justify-content: space-evenly;
 }
 
-
-
 .navbar {
     display: flex;
     align-items: center;
@@ -343,13 +349,18 @@ a.mainlink {
   .navbar .menu {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 50px;
     padding-left: 0;
   }
   
   .menu > li {
     position: relative;
-  }
+    transition: transform 0.2s;
+    }
+
+  .menu > li:hover {
+    transform: scale(1.1);
+   }
   
   .menu > li > a {
     color: white;
@@ -360,13 +371,18 @@ a.mainlink {
   }
   
   .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #004d40;
     min-width: 150px;
     z-index: 1001;
     list-style: none;
     padding-left: 0;
+
+
+    overflow: hidden;
+    transition: all .5s ease;
+    max-height: 0;
   }
   
   .dropdown-content a {
@@ -382,5 +398,5 @@ a.mainlink {
   }
   
   .dropdown:hover .dropdown-content {
-    display: block;
+    max-height: 500px;
   }
