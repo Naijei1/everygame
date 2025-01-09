@@ -2,10 +2,10 @@ async function loadAllGames() {
     // Centralized list of team member JSON files
     const jsonFiles = [
         "games.json",
-        "grant_games.json",
-        "naijei_games.json",
-        "ziqi_games.json",
-        "gene_games.json"
+        "metadata/grant_games.json",
+        "metadata/naijei_games.json",
+        "metadata/ziqi_games.json",
+        "metadata/gene_games.json"
         // Add new members' files here as needed
     ];
 
