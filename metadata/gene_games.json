@@ -355,7 +355,35 @@
       "imgpath": "images/underrun.jpg",
       "data_players": "150K players",
       "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+
+    {
+      "id": "chroma_incident",
+      "title": "The Chroma Incident",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "The Achromats have taken the worlds color offline! Raid their colorless lair and vanquish them all, restoring the world to it's technicolor glory. A twin-stick shooter playable with gamepad or keyboard+mouse.",
+      "path": "games/chroma_incident/",
+      "imgpath": "images/chroma_incident.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "binding_isaac",
+      "title": "The Binding of Isaac",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "The Binding of Isaac is a roguelike action-adventure game developed by Edmund McMillen and Florian Himsl. The game's storyline is dark and revolves around the main character, Isaac, who is trying to escape his deeply religious mother's attempts to sacrifice him to prove her faith to God. The gameplay involves exploring randomly generated dungeons, battling enemies, and collecting various power-ups and items to progress through the game.",
+      "path": "games/binding_isaac/",
+      "imgpath": "images/binding_isaac.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
     }
+
+
+
 
     
   ]

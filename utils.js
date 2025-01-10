@@ -5,7 +5,8 @@ async function loadAllGames() {
         "metadata/grant_games.json",
         "metadata/naijei_games.json",
         "metadata/ziqi_games.json",
-        "metadata/gene_games.json"
+        "metadata/gene_games.json",
+        "metadata/scraped_games.json"
         // Add new members' files here as needed
     ];
 
