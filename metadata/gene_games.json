@@ -307,5 +307,31 @@
       "imgpath": "images/towerdefense.png",
       "data_players": "150K players",
       "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "ur_offline",
+      "title": "You Are Offline.",
+      "category": "Strategy",
+      "subcategory": "Figure_it_out",
+      "instructions": "You are trapped in a room. There is no way out. Your only hope is to contact someone to rescue you. The only problem is: YOU ARE OFFLINE.",
+      "path": "games/ur_offline/",
+      "imgpath": "images/offline.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    }, 
+
+    {
+      "id": "elematter",
+      "title": "Elematter",
+      "category": "Strategy",
+      "subcategory": "Tower_Defense",
+      "instructions": "Elematter is a tower defense game based on the four elements: Earth, Water, Air and Fire. Construct your defense and stop the enemy forces from stealing scarce elemental matter! This game was built with JavaScript for game logic and HTML/CSS for rendering.",
+      "path": "games/elematter/",
+      "imgpath": "images/elematter.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
     }
+
+    
   ]
