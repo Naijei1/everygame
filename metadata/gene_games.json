@@ -331,6 +331,30 @@
       "imgpath": "images/elematter.png",
       "data_players": "150K players",
       "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "back_country",
+      "title": "Back Country",
+      "category": "Skill",
+      "subcategory": "Adventure",
+      "instructions": "Kill or be killed in this hack-and-shoot set in the Wild West! Use the mouse or tap the screen to control your avatar, and earn as much gold as you can from the sheriff's bounties.",
+      "path": "games/back_country/",
+      "imgpath": "images/back_country.png",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
+    },
+
+    {
+      "id": "underrun",
+      "title": "Underrun",
+      "category": "Skill",
+      "subcategory": "Aiming",
+      "instructions": "A twin stick shooter in 256 shades of brown.",
+      "path": "games/underrun/",
+      "imgpath": "images/underrun.jpg",
+      "data_players": "150K players",
+      "related": ["vex7", "slope", "moto-x3m"]
     }
 
     
